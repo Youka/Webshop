@@ -1,0 +1,3 @@
+# For all agents: disallow everything
+User-agent: *
+Disallow: /

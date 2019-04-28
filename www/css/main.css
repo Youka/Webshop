@@ -1,0 +1,20 @@
+/* Place element on center of screen */
+.center-screen {
+	display: flex;	/* Flexible grid */
+	justify-content: center;	/* Center horizontally */
+	align-items: center;	/* Center vertically */
+	height: 100vh;	/* 100% of viewport height */
+}
+
+/* Add a round border and some inner padding to container */
+.bordered-container {
+	padding: 10px;
+	border: 5px inset grey;
+	border-radius: 10px;
+}
+
+/* All table cells should vertically center content */
+table th,
+table td {
+	vertical-align: middle !important;	/* Must be important to override fake-important bootstrap rules */
+}

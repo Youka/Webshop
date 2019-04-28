@@ -1,0 +1,16 @@
+/* Sortable column header */
+th.sortable {
+	cursor: pointer;
+}
+
+/* Ordering marks */
+th.sortable::after {
+	color: lightgrey;
+	content: ' •';
+}
+th.sortable.asc::after {
+	content: ' ↑';
+}
+th.sortable.desc::after {
+	content: ' ↓';
+}
